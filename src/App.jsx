@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [data, setData] = useState([])
-  const baseUrl = "https://json-server-chi-nine.vercel.app"
+  const baseUrl = "https://json-server-chi-nine.vercel.app:5000"
   // useEffect(() => {
   //   fetch('http://localhost:5000/data')
   //   .then(res => res.json())
