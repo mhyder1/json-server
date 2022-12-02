@@ -4,6 +4,7 @@ import './App.css'
 
 function App() {
   const [data, setData] = useState([])
+  const baseUrl = "https://json-server-chi-nine.vercel.app"
   // useEffect(() => {
   //   fetch('http://localhost:5000/data')
   //   .then(res => res.json())
@@ -11,13 +12,13 @@ function App() {
   // },[])
 
   function getDecks() {
-    fetch('http://localhost:5000/decks')
+    fetch(baseUrl + '/decks')
     .then(res => res.json())
     .then(data => setData(data))
   }
 
   function getCards() {
-    fetch('http://localhost:5000/cards')
+    fetch(baseUrl + '/cards')
     .then(res => res.json())
     .then(data => setData(data))
   }
