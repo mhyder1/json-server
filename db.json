@@ -1,7 +1,12 @@
 {
-    "data": [
-        "one",
-        "two",
-        "three"
+    "decks": [
+        "deck one",
+        "deck two",
+        "deck three"
+    ],
+    "cards": [
+        "card one",
+        "card two",
+        "card three"
     ]
 }

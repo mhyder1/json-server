@@ -4,19 +4,33 @@ import './App.css'
 
 function App() {
   const [data, setData] = useState([])
-  useEffect(() => {
-    fetch('http://localhost:5000/data')
+  // useEffect(() => {
+  //   fetch('http://localhost:5000/data')
+  //   .then(res => res.json())
+  //   .then(data => setData(data))
+  // },[])
+
+  function getDecks() {
+    fetch('http://localhost:5000/decks')
     .then(res => res.json())
     .then(data => setData(data))
-  },[])
+  }
+
+  function getCards() {
+    fetch('http://localhost:5000/cards')
+    .then(res => res.json())
+    .then(data => setData(data))
+  }
 
   return (
     <div className="App">
-      {
-        data.map(name => (
-          <p>{name}</p>
-        ))
-      }
+      <button onClick={getDecks}>Get decks</button>
+      <button onClick={getCards}>Get cards</button>
+        {
+          data.map(item => (
+            <p key={item}>{item}</p>
+          ))
+        }
     </div>
   )
 }
