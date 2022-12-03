@@ -1,12 +1,78 @@
 {
-    "decks": [
-        "deck one",
-        "deck two",
-        "deck three"
-    ],
-    "cards": [
-        "card one",
-        "card two",
-        "card three"
-    ]
+  "decks": [
+    {
+      "id": 1,
+      "name": "deck one"
+    },
+    {
+      "id": 2,
+      "name": "deck two"
+    },
+    {
+      "id": 3,
+      "name": "deck three"
+    },
+    {
+      "name": "deck x",
+      "id": 4
+    },
+    {
+      "name": "deck x",
+      "id": 5
+    },
+    {
+      "name": "deck x",
+      "id": 6
+    },
+    {
+      "name": "deck x",
+      "id": 7
+    },
+    {
+      "name": "deck x",
+      "id": 8
+    },
+    {
+      "name": "deck 8.7790899519031531",
+      "id": 9
+    },
+    {
+      "name": "deck 36.799726995972921",
+      "id": 10
+    },
+    {
+      "name": "deck 63.648023796254011",
+      "id": 11
+    },
+    {
+      "name": "deck 89.454485186040051",
+      "id": 12
+    },
+    {
+      "name": "deck 14.3895076192786641",
+      "id": 13
+    },
+    {
+      "name": "deck 64.708356766197171",
+      "id": 14
+    },
+    {
+      "name": "deck 67.420747033900431",
+      "id": 15
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "card one"
+    },
+    {
+      "id": 2,
+      "name": "card two"
+    },
+    {
+      "id": 3,
+      "name": "card three"
+    }
+  ]
 }
